@@ -1,0 +1,15 @@
+baseURL: http://localhost:1313/
+languageCode: id-ID
+title: Irsyadul Ibad Blog
+theme: "PaperMod"
+params:
+    homeInfoParams:
+        Title: Hi there 👋️
+        Content: Welcome to my blog, here you can read some tips or tutorial
+    socialIcons: # optional
+        - name: "facebook"
+          url: "https://facebook.com/irsyadulibad.dev"
+        - name: "github"
+          url: "https://github.com/irsyadulibad"
+        - name: "linkedin"
+          url: "https://linkedin.com/in/irsyadulibad"
