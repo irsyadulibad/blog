@@ -22,7 +22,7 @@ const config = {
 
 ftp.deploy(config)
     .then(res => {
-        console.log('Succeeded')
+        console.log('Deploy succeeded')
     }).catch(err => {
         console.log(err)
     });

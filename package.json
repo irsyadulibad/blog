@@ -6,7 +6,7 @@
   "author": "irsyadulibad <ahmadirsyadulibad7@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "node deploy/index.js"
+    "deploy": "hugo --gc --minify && node deploy/index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
