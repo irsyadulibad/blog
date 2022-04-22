@@ -1,3 +1,5 @@
 themes
 public
 config.yml
+node_modules
+.env

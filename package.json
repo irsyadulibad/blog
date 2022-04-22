@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:irsyadulibad/blog",
+  "author": "irsyadulibad <ahmadirsyadulibad7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node deploy/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ftp-deploy": "^2.4.2"
+  }
+}
